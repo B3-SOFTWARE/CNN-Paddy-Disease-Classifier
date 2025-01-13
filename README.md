@@ -68,5 +68,44 @@ We evaluated the fine-tuned MobileNetV2 model on a new set of test images sample
 ________________________________________
 Day 6:
 09/01/2025
+We tried alternate preprocessing techniques such as 
+1) LAB color space for better contrast
+
+We used EfficientNetB4 and trained for 30 epochs but achieved very low accuracy of 0.1%
+![image](https://github.com/user-attachments/assets/5d0f1126-ab87-4fd4-8899-549c60940e4f)
+
+________________________________________
+Day 7:
+10/01/2025
+We shifted back to MobileNetV2 and trained for 100 epochs and finetuned for 20 epochs which gave us 97% accuracy
+
+![image](https://github.com/user-attachments/assets/4349493c-817d-480d-ac5b-50ec5e661a7c)
+But it caused overfitting leading to poor validation accuracy
+![image](https://github.com/user-attachments/assets/714052a7-6cc0-40a0-81fa-08c8d3c23490)
+
+________________________________________
+Day 8:
+11/01/2025
+Tried to use alternate models such as ResNet, EfficientNetB0, EfficientNetB6 etc
+but they did not give better results
+________________________________________
+Day 9:
+12/01/2025
+We trained the MobileNetV2 model with lower epochs to prevent overfitting at 10 epochs for training and 20 epochs for finetuning.
+
+Results:
+•	Training Accuracy: 95.2%
+•	Validation Accuracy: 90.97%
+![image](https://github.com/user-attachments/assets/415ac638-20b2-426a-94b6-10330c35b431)
+
+________________________________________
+Day 10:
+13/01/2025
+
+We also added testing with external images which display the actual class, the predicted class and the image.
+It automatically preprocesses the images and displays the accuracy for 100 images
+![image](https://github.com/user-attachments/assets/be114610-0f0f-4309-b81e-f54a53b0861a)
+
+
 
 
