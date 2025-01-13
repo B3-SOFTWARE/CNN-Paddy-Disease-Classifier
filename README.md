@@ -106,6 +106,12 @@ We also added testing with external images which display the actual class, the p
 It automatically preprocesses the images and displays the accuracy for 100 images
 ![image](https://github.com/user-attachments/assets/be114610-0f0f-4309-b81e-f54a53b0861a)
 
+We trained a new model based on Densenet and it gives
+Training Accuracy after 40 epochs of training and 10 epochs of finetuning: 95.09%
+Validation Accuracy: 95.09%
+Testing Accuracy: 97%
+![image](https://github.com/user-attachments/assets/1989bd41-3634-4f16-8341-96b136774b24)
 
+![Screenshot from 2025-01-13 22-38-04](https://github.com/user-attachments/assets/12c977b8-a30f-4d93-b32e-78edb9c42427)
 
 
