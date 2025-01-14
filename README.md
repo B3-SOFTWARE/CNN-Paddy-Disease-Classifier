@@ -115,3 +115,12 @@ Testing Accuracy: 97%
 ![Screenshot from 2025-01-13 22-38-04](https://github.com/user-attachments/assets/12c977b8-a30f-4d93-b32e-78edb9c42427)
 
 
+________________________________________
+Day 11:
+14/01/2025
+
+Trained models are attached as gdrive link
+https://drive.google.com/drive/folders/1V9KOQiveQVYQYVm044JVIZR-sCxnas2z?usp=sharing
+
+MobilenetV2 Accuracy with preprocessing 97% on seen data
+Densenet Accuracy without preprocessing 95% on seen data
